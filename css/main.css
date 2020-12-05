@@ -435,9 +435,11 @@ footer .theme-by {
   margin-bottom: 30px;
 }
 
+/* 
 .blog-tags:before {
-  content: "Tags: ";
+  content: " ";
 }
+*/
 
 .blog-tags a {
   color: #008AFF;
