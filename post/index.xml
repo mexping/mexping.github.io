@@ -5,16 +5,16 @@
     <link>https://mexping.github.io/post/</link>
     <description>Recent content in Posts on Mexping</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 05 Dec 2020 12:50:22 +0000</lastBuildDate><atom:link href="https://mexping.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Dec 2020 12:50:22 +0000</lastBuildDate><atom:link href="https://mexping.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>スマホからテスト投稿</title>
       <link>https://mexping.github.io/post/test/</link>
-      <pubDate>Sat, 05 Dec 2020 12:50:22 +0000</pubDate>
+      <pubDate>Fri, 04 Dec 2020 12:50:22 +0000</pubDate>
       
       <guid>https://mexping.github.io/post/test/</guid>
-      <description>#テスト1 てすと
-##テスト2 てすと
-###テスト3 てすと</description>
+      <description>テスト1 てすと
+テスト2 てすと
+テスト3 てすと</description>
     </item>
     
   </channel>
