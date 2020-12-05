@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Mexping</title>
-    <link>https://mexping.github.io/post/</link>
-    <description>Recent content in Posts on Mexping</description>
+    <title>テスト on Mexping</title>
+    <link>https://mexping.github.io/categories/%E3%83%86%E3%82%B9%E3%83%88/</link>
+    <description>Recent content in テスト on Mexping</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 05 Dec 2020 12:50:22 +0000</lastBuildDate><atom:link href="https://mexping.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Dec 2020 12:50:22 +0000</lastBuildDate><atom:link href="https://mexping.github.io/categories/%E3%83%86%E3%82%B9%E3%83%88/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>スマホからテスト投稿</title>
       <link>https://mexping.github.io/post/test/</link>

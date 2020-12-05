@@ -5,24 +5,16 @@
     <link>https://mexping.github.io/</link>
     <description>Recent content on Mexping</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 05 Dec 2020 08:08:51 +0000</lastBuildDate><atom:link href="https://mexping.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Dec 2020 12:50:22 +0000</lastBuildDate><atom:link href="https://mexping.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Pinguicula laueana</title>
-      <link>https://mexping.github.io/post/20201205/</link>
-      <pubDate>Sat, 05 Dec 2020 08:08:51 +0000</pubDate>
+      <title>スマホからテスト投稿</title>
+      <link>https://mexping.github.io/post/test/</link>
+      <pubDate>Sat, 05 Dec 2020 12:50:22 +0000</pubDate>
       
-      <guid>https://mexping.github.io/post/20201205/</guid>
-      <description>ピンギキュラ・ラウエアナ</description>
-    </item>
-    
-    <item>
-      <title>てすと投稿</title>
-      <link>https://mexping.github.io/post/sample01/</link>
-      <pubDate>Fri, 04 Dec 2020 11:27:51 +0000</pubDate>
-      
-      <guid>https://mexping.github.io/post/sample01/</guid>
-      <description>てすと投稿
-  Screenshot</description>
+      <guid>https://mexping.github.io/post/test/</guid>
+      <description>#テスト1 てすと
+##テスト2 てすと
+###テスト3 てすと</description>
     </item>
     
   </channel>
