@@ -7,7 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>テスト - Mexping</title>
+  <title>Hugoのテーマ改変メモ - Mexping</title>
+  <meta name="description" content="Hugoのテーマ「Beautiful Hugo」を改変した時のメモ。">
   <meta name="author" content="Mexping"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -28,14 +29,64 @@
   
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/mexping.github.io",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/mexping.github.io\/post\/2020120601\/",
+          "name": "Hugoのテーマ改変メモ"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Mexping"
+  },
+  "headline": "Hugoのテーマ改変メモ",
+  "description" : "Hugoのテーマ「Beautiful Hugo」を改変した時のメモ。\n",
+  "inLanguage" : "en",
+  "wordCount":  107 ,
+  "datePublished" : "2020-12-05T22:00:16",
+  "dateModified" : "2020-12-05T22:00:16",
+  "image" : "https:\/\/mexping.github.io\/img\/avatar.jpg",
+  "keywords" : [ "Beautiful Hugo" ],
+  "mainEntityOfPage" : "https:\/\/mexping.github.io\/post\/2020120601\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/mexping.github.io",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/mexping.github.io\/img\/avatar.jpg",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
 
-<meta property="og:title" content="テスト" />
+<meta property="og:title" content="Hugoのテーマ改変メモ" />
+<meta property="og:description" content="Hugoのテーマ「Beautiful Hugo」を改変した時のメモ。">
 <meta property="og:image" content="https://mexping.github.io/img/avatar.jpg" />
-<meta property="og:url" content="https://mexping.github.io/categories/%E3%83%86%E3%82%B9%E3%83%88/" />
+<meta property="og:url" content="https://mexping.github.io/post/2020120601/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Mexping" />
 
-  <meta name="twitter:title" content="テスト" />
+  <meta name="twitter:title" content="Hugoのテーマ改変メモ" />
+  <meta name="twitter:description" content="Hugoのテーマ「Beautiful Hugo」を改変した時のメモ。">
   <meta name="twitter:image" content="https://mexping.github.io/img/avatar.jpg" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@TTK9981" />
@@ -202,14 +253,27 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="categories-heading">
+            <div class="post-heading">
               
-                <h1>テスト</h1>
-              
-              
-                <hr class="small">
+                <h1>Hugoのテーマ改変メモ</h1>
               
               
+              
+              
+                <span class="post-meta">
+  
+  
+  
+    最終更新日 2020.12.06 &nbsp;/&nbsp;
+  
+ 投稿日 2020.12.05 
+  
+  
+  
+  
+</span>
+
+
               
             </div>
           </div>
@@ -220,66 +284,140 @@
 
 
     
-  <div class="container" role="main">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        
-        <div class="posts-list">
-          
-            <article class="post-preview">
-    <a href="https://mexping.github.io/post/test/">
-        <h2 class="post-title">スマホからテスト投稿</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  
-    最終更新日 2020.12.05 &nbsp;/&nbsp;
-  
- 投稿日 2020.12.04 
-  
-  
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <h1 id="テスト1">テスト1</h1>
-<p>てすと</p>
-<h2 id="テスト2">テスト2</h2>
-<p>てすと</p>
-<h3 id="テスト3">テスト3</h3>
-<p>てすと</p>
-
-        
-    </div>
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>Hugoのテーマ「Beautiful Hugo」を改変した時のメモ。</p>
+<h2 id="archiveページの作成">Archiveページの作成</h2>
+<p><code>config.toml</code>に下記を追加</p>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"> <span class="p">[</span><span class="nx">taxonomies</span><span class="p">]</span>
+  <span class="nx">tag</span> <span class="p">=</span> <span class="s2">&#34;tags&#34;</span>
+  <span class="nx">category</span> <span class="p">=</span> <span class="s2">&#34;categories&#34;</span>
+  <span class="nx">archive</span> <span class="p">=</span> <span class="s2">&#34;archives&#34;</span>
+</code></pre></div><p><code>main.css</code>の <code>.tags-heading</code>がある場所に、<code> .archives-heading</code>を追加</p>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="p">.</span><span class="nc">intro-header</span> <span class="p">.</span><span class="nc">page-heading</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">intro-header</span> <span class="p">.</span><span class="nc">tags-heading</span><span class="o">,</span>
+<span class="p">.</span><span class="nc">intro-header</span> <span class="p">.</span><span class="nc">categories-heading</span><span class="o">,</span> 
+<span class="p">.</span><span class="nc">intro-header</span> <span class="p">.</span><span class="nc">archives-heading</span> <span class="p">{</span>
+  <span class="k">text-align</span><span class="p">:</span> <span class="kc">center</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><p><code>config.toml</code>に下記を追加。</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">[[menu.main]]
+    name = &#34;Archives&#34;
+    url = &#34;archives&#34;
+    weight = 4
+</code></pre></div><h2 id="chroma-syntax-highlighter">Chroma syntax highlighter</h2>
+<p>monokaiというスタイルを使いたかったので、CSSを生成して入れ替える。</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">hugo gen chromastyles --style monokai  &gt; syntax.css
+</code></pre></div><p><code>main.css</code>に下記を追記して、横スクロールできるようにする。<code>!important</code>としないと効かなかった。</p>
+<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="p">.</span><span class="nc">highlight</span> <span class="nt">pre</span> <span class="nt">code</span> <span class="o">*</span> <span class="p">{</span> <span class="k">white-space</span><span class="p">:</span> <span class="kc">nowrap</span><span class="p">;</span> <span class="err">//</span> <span class="err">this</span> <span class="err">sets</span> <span class="err">all</span> <span class="err">children</span> <span class="err">inside</span> <span class="err">to</span> <span class="err">nowrap</span> <span class="p">}</span>
+<span class="p">.</span><span class="nc">highlight</span> <span class="nt">pre</span> <span class="p">{</span> <span class="k">overflow-x</span><span class="p">:</span> <span class="kc">auto</span> <span class="cp">!important</span><span class="p">;</span> <span class="err">//</span> <span class="err">this</span> <span class="err">sets</span> <span class="err">the</span> <span class="err">scrolling</span> <span class="err">in</span> <span class="err">x</span> <span class="p">}</span>
+<span class="p">.</span><span class="nc">highlight</span> <span class="nt">pre</span> <span class="nt">code</span> <span class="p">{</span> <span class="k">white-space</span><span class="p">:</span> <span class="kc">pre</span><span class="p">;</span> <span class="err">//</span> <span class="err">forces</span> <span class="err">&lt;code&gt;</span> <span class="err">to</span> <span class="err">respect</span> <span class="err">&lt;pre&gt;</span> <span class="err">formatting</span> <span class="p">}</span>
+</code></pre></div><p><code>config.toml</code>の<code>useHLJS</code>を<code>false</code>に変更。</p>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">Params</span><span class="p">]</span>
+<span class="nx">useHLJS</span> <span class="p">=</span> <span class="kc">false</span>
+</code></pre></div><h3 id="検索ページを作る">検索ページを作る</h3>
+<p>Googleカスタム検索でコードを取得し、<code>config.toml</code>の<code>gcse</code>に貼り付け。カスタム検索のレイアウトは全幅にする。</p>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">Params</span><span class="p">]</span>
+<span class="nx">gcse</span> <span class="p">=</span> <span class="s2">&#34;#########&#34;</span> 
+</code></pre></div>
 
     
     <div class="blog-tags">
         
-        Categories: <a href="https://mexping.github.io/categories/%E3%83%86%E3%82%B9%E3%83%88/">テスト</a>&nbsp;
+        Categories: <a href="https://mexping.github.io/categories/hugo/">Hugo</a>&nbsp;
         <br/>Tags:
         
-        <a href="https://mexping.github.io/tags/%E3%83%86%E3%82%B9%E3%83%88/">テスト</a>&nbsp;
+        <a href="https://mexping.github.io/tags/beautiful-hugo/">Beautiful Hugo</a>&nbsp;
         
     </div>
     
 
-</article>
-          
-        </div>
         
-      </div>
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fmexping.github.io%2fpost%2f2020120601%2f&amp;text=Hugo%e3%81%ae%e3%83%86%e3%83%bc%e3%83%9e%e6%94%b9%e5%a4%89%e3%83%a1%e3%83%a2&amp;via=TTK9981" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmexping.github.io%2fpost%2f2020120601%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fmexping.github.io%2fpost%2f2020120601%2f&amp;title=Hugo%e3%81%ae%e3%83%86%e3%83%bc%e3%83%9e%e6%94%b9%e5%a4%89%e3%83%a1%e3%83%a2" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fmexping.github.io%2fpost%2f2020120601%2f&amp;title=Hugo%e3%81%ae%e3%83%86%e3%83%bc%e3%83%9e%e6%94%b9%e5%a4%89%e3%83%a1%e3%83%a2" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fmexping.github.io%2fpost%2f2020120601%2f&amp;title=Hugo%e3%81%ae%e3%83%86%e3%83%bc%e3%83%9e%e6%94%b9%e5%a4%89%e3%83%a1%e3%83%a2" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fmexping.github.io%2fpost%2f2020120601%2f&amp;description=Hugo%e3%81%ae%e3%83%86%e3%83%bc%e3%83%9e%e6%94%b9%e5%a4%89%e3%83%a1%e3%83%a2" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+
+              </div>
+            </section>
+        
+
+        
+          
+
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://mexping.github.io/post/test/" data-toggle="tooltip" data-placement="top" title="スマホからテスト投稿">&larr; Previous Post</a>
+            </li>
+          
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
     </div>
   </div>
+</div>
 
       
 <footer>
@@ -298,7 +436,7 @@
               </li>
           
           <li>
-            <a href="/categories/%E3%83%86%E3%82%B9%E3%83%88/index.xml" title="RSS">
+            <a href="" title="RSS">
               <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
