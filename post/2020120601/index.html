@@ -92,6 +92,7 @@
   <meta name="twitter:site" content="@TTK9981" />
   <meta name="twitter:creator" content="@TTK9981" />
   <link href='https://mexping.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <link rel="apple-touch-icon" href="./img/apple-touch-icon.png" sizes="180x180">
   <meta name="generator" content="Hugo 0.78.2" />
   <link rel="alternate" href="https://mexping.github.io/index.xml" type="application/rss+xml" title="Mexping"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -284,7 +285,6 @@
   
 </span>
 
-
               
             </div>
           </div>
@@ -301,12 +301,12 @@
       <article role="main" class="blog-post">
         <p>Hugoのテーマ「Beautiful Hugo」を改変した時のメモ。</p>
 <h2 id="archiveページの作成">Archiveページの作成</h2>
-<p><code>config.toml</code>に下記を追加</p>
+<p><code>config.toml</code>に下記を追加。</p>
 <div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"> <span class="p">[</span><span class="nx">taxonomies</span><span class="p">]</span>
   <span class="nx">tag</span> <span class="p">=</span> <span class="s2">&#34;tags&#34;</span>
   <span class="nx">category</span> <span class="p">=</span> <span class="s2">&#34;categories&#34;</span>
   <span class="nx">archive</span> <span class="p">=</span> <span class="s2">&#34;archives&#34;</span>
-</code></pre></div><p><code>main.css</code>の <code>.tags-heading</code>がある場所に、<code> .archives-heading</code>を追加</p>
+</code></pre></div><p><code>main.css</code>の <code>.tags-heading</code>がある場所に、<code> .archives-heading</code>を追加。</p>
 <div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="p">.</span><span class="nc">intro-header</span> <span class="p">.</span><span class="nc">page-heading</span><span class="o">,</span>
 <span class="p">.</span><span class="nc">intro-header</span> <span class="p">.</span><span class="nc">tags-heading</span><span class="o">,</span>
 <span class="p">.</span><span class="nc">intro-header</span> <span class="p">.</span><span class="nc">categories-heading</span><span class="o">,</span> 
@@ -321,7 +321,7 @@
 </code></pre></div><h2 id="chroma-syntax-highlighter">Chroma syntax highlighter</h2>
 <p>monokaiというスタイルを使いたかったので、CSSを生成して入れ替える。</p>
 <div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">hugo gen chromastyles --style monokai  &gt; syntax.css
-</code></pre></div><p><code>main.css</code>に下記を追記して、横スクロールできるようにする。<code>!important</code>としないと効かなかった。</p>
+</code></pre></div><p>はみ出した部分が表示されないので、<code>main.css</code>に下記を追記して横スクロールできるようにする。<code>!important</code>としないと効かなかった。</p>
 <div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="p">.</span><span class="nc">highlight</span> <span class="nt">pre</span> <span class="nt">code</span> <span class="o">*</span> <span class="p">{</span> <span class="k">white-space</span><span class="p">:</span> <span class="kc">nowrap</span><span class="p">;</span> <span class="err">//</span> <span class="err">this</span> <span class="err">sets</span> <span class="err">all</span> <span class="err">children</span> <span class="err">inside</span> <span class="err">to</span> <span class="err">nowrap</span> <span class="p">}</span>
 <span class="p">.</span><span class="nc">highlight</span> <span class="nt">pre</span> <span class="p">{</span> <span class="k">overflow-x</span><span class="p">:</span> <span class="kc">auto</span> <span class="cp">!important</span><span class="p">;</span> <span class="err">//</span> <span class="err">this</span> <span class="err">sets</span> <span class="err">the</span> <span class="err">scrolling</span> <span class="err">in</span> <span class="err">x</span> <span class="p">}</span>
 <span class="p">.</span><span class="nc">highlight</span> <span class="nt">pre</span> <span class="nt">code</span> <span class="p">{</span> <span class="k">white-space</span><span class="p">:</span> <span class="kc">pre</span><span class="p">;</span> <span class="err">//</span> <span class="err">forces</span> <span class="err">&lt;code&gt;</span> <span class="err">to</span> <span class="err">respect</span> <span class="err">&lt;pre&gt;</span> <span class="err">formatting</span> <span class="p">}</span>
@@ -329,7 +329,7 @@
 <div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">Params</span><span class="p">]</span>
 <span class="nx">useHLJS</span> <span class="p">=</span> <span class="kc">false</span>
 </code></pre></div><h3 id="検索ページを作る">検索ページを作る</h3>
-<p>Googleカスタム検索でコードを取得し、<code>config.toml</code>の<code>gcse</code>に貼り付け。カスタム検索のレイアウトは全幅にする。</p>
+<p>Googleカスタム検索でコードを取得（レイアウトは全幅にする）。<code>config.toml</code>の<code>gcse</code>に貼り付けるだけ。</p>
 <div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[</span><span class="nx">Params</span><span class="p">]</span>
 <span class="nx">gcse</span> <span class="p">=</span> <span class="s2">&#34;#########&#34;</span> 
 </code></pre></div>
