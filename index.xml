@@ -15,16 +15,5 @@
       <description>&lt;p&gt;Hugoのテーマ「Beautiful Hugo」を改変した時のメモ。&lt;/p&gt;</description>
     </item>
     
-    <item>
-      <title>スマホからテスト投稿</title>
-      <link>https://mexping.github.io/post/test/</link>
-      <pubDate>Fri, 04 Dec 2020 12:50:22 +0000</pubDate>
-      
-      <guid>https://mexping.github.io/post/test/</guid>
-      <description>テスト1 てすと
-テスト2 てすと
-テスト3 てすと</description>
-    </item>
-    
   </channel>
 </rss>
