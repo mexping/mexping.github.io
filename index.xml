@@ -1,19 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Mexping</title>
-    <link>https://mexping.github.io/</link>
-    <description>Recent content on Mexping</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 05 Dec 2020 22:00:16 +0000</lastBuildDate><atom:link href="https://mexping.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hugoのテーマ改変メモ</title>
-      <link>https://mexping.github.io/post/2020120601/</link>
-      <pubDate>Sat, 05 Dec 2020 22:00:16 +0000</pubDate>
-      
-      <guid>https://mexping.github.io/post/2020120601/</guid>
-      <description>&lt;p&gt;Hugoのテーマ「Beautiful Hugo」を改変した時のメモ。&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Mexping</title>
+        <link>https://mexping.github.io/</link>
+        <description>Mexping</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 05 Dec 2020 22:00:16 &#43;0000</lastBuildDate>
+            <atom:link href="https://mexping.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Hugoのテーマ改変メモ</title>
+    <link>https://mexping.github.io/posts/2020120601/</link>
+    <pubDate>Sat, 05 Dec 2020 22:00:16 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://mexping.github.io/posts/2020120601/</guid>
+    <description><![CDATA[<p>Hugoのテーマ「Beautiful Hugo」を改変した時のメモ。</p>]]></description>
+</item></channel>
 </rss>

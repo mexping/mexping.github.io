@@ -1,19 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories on Mexping</title>
-    <link>https://mexping.github.io/categories/</link>
-    <description>Recent content in Categories on Mexping</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 05 Dec 2020 22:00:16 +0000</lastBuildDate><atom:link href="https://mexping.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hugo</title>
-      <link>https://mexping.github.io/categories/hugo/</link>
-      <pubDate>Sat, 05 Dec 2020 22:00:16 +0000</pubDate>
-      
-      <guid>https://mexping.github.io/categories/hugo/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Categories - Category - Mexping</title>
+        <link>https://mexping.github.io/categories/</link>
+        <description>Categories - Category - Mexping</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 05 Dec 2020 22:00:16 &#43;0000</lastBuildDate><atom:link href="https://mexping.github.io/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>Hugo</title>
+    <link>https://mexping.github.io/categories/hugo/</link>
+    <pubDate>Sat, 05 Dec 2020 22:00:16 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://mexping.github.io/categories/hugo/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
 </rss>
