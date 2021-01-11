@@ -4,11 +4,18 @@
         <link>https://mexping.github.io/posts/</link>
         <description>All Posts | Mexping</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 05 Dec 2020 22:00:16 &#43;0000</lastBuildDate><atom:link href="https://mexping.github.io/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>Hugoのテーマ改変メモ</title>
-    <link>https://mexping.github.io/posts/2020120601/</link>
+    <title>Hugoのテーマ「LoveIt」の改変メモ</title>
+    <link>https://mexping.github.io/posts/hugo_customize/</link>
     <pubDate>Sat, 05 Dec 2020 22:00:16 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://mexping.github.io/posts/2020120601/</guid>
-    <description><![CDATA[<p>Hugoのテーマ「Beautiful Hugo」を改変した時のメモ。</p>]]></description>
+    <guid>https://mexping.github.io/posts/hugo_customize/</guid>
+    <description><![CDATA[Hugoのテーマ「LoveIt」を改変したときのメモ。 Authorを非表示にする LAYOUTS/POSTS/single.html 33〜40をコメントアウト {{/* {{- $author := $params.author | default .Site.Author.name | default (T &#34;author&#34;) -}} {{- $authorLink :=]]></description>
+</item><item>
+    <title>コウシンソウ 自生地</title>
+    <link>https://mexping.github.io/posts/pinguicula-_ramosa/</link>
+    <pubDate>Sun, 14 Jul 2013 08:51:31 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://mexping.github.io/posts/pinguicula-_ramosa/</guid>
+    <description><![CDATA[コウシンソウの開花時期は6月下旬。既に花は終わっているはずですが、結実した様子を見たくて日光に行ってきました。 東武日光駅前から" 東武日光駅前]]></description>
 </item></channel>
 </rss>

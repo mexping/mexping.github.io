@@ -2,10 +2,14 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://mexping.github.io/tags/beautiful-hugo/</loc><lastmod>2021-01-02T22:00:16&#43;00:00</lastmod></url><url>
-            <loc>https://mexping.github.io/categories/</loc><lastmod>2021-01-02T22:00:16&#43;00:00</lastmod></url><url>
-            <loc>https://mexping.github.io/categories/hugo/</loc><lastmod>2021-01-02T22:00:16&#43;00:00</lastmod></url><url>
-            <loc>https://mexping.github.io/posts/2020120601/</loc><lastmod>2021-01-02T22:00:16&#43;00:00</lastmod></url><url>
-            <loc>https://mexping.github.io/</loc><lastmod>2021-01-02T22:00:16&#43;00:00</lastmod></url><url>
-            <loc>https://mexping.github.io/posts/</loc><lastmod>2021-01-02T22:00:16&#43;00:00</lastmod></url><url>
-            <loc>https://mexping.github.io/tags/</loc><lastmod>2021-01-02T22:00:16&#43;00:00</lastmod></url></urlset>
+            <loc>https://mexping.github.io/categories/</loc><lastmod>2021-01-11T22:00:16&#43;00:00</lastmod></url><url>
+            <loc>https://mexping.github.io/categories/hugo/</loc><lastmod>2021-01-11T22:00:16&#43;00:00</lastmod></url><url>
+            <loc>https://mexping.github.io/posts/hugo_customize/</loc><lastmod>2021-01-11T22:00:16&#43;00:00</lastmod></url><url>
+            <loc>https://mexping.github.io/</loc><lastmod>2021-01-11T22:00:16&#43;00:00</lastmod></url><url>
+            <loc>https://mexping.github.io/posts/</loc><lastmod>2021-01-11T22:00:16&#43;00:00</lastmod></url><url>
+            <loc>https://mexping.github.io/tags/pinguicula/</loc><lastmod>2013-07-14T08:51:31&#43;00:00</lastmod></url><url>
+            <loc>https://mexping.github.io/tags/</loc><lastmod>2013-07-14T08:51:31&#43;00:00</lastmod></url><url>
+            <loc>https://mexping.github.io/tags/%E3%82%B3%E3%82%A6%E3%82%B7%E3%83%B3%E3%82%BD%E3%82%A6/</loc><lastmod>2013-07-14T08:51:31&#43;00:00</lastmod></url><url>
+            <loc>https://mexping.github.io/posts/pinguicula-_ramosa/</loc><lastmod>2013-07-14T08:51:31&#43;00:00</lastmod></url><url>
+            <loc>https://mexping.github.io/categories/%E8%87%AA%E7%94%9F%E5%9C%B0%E6%8E%A2%E7%B4%A2/</loc><lastmod>2013-07-14T08:51:31&#43;00:00</lastmod></url><url>
+            <loc>https://mexping.github.io/categories/%E9%A3%9F%E8%99%AB%E6%A4%8D%E7%89%A9/</loc><lastmod>2013-07-14T08:51:31&#43;00:00</lastmod></url></urlset>
