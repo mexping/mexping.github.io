@@ -9,6 +9,6 @@
     <pubDate>Sat, 05 Dec 2020 22:00:16 &#43;0000</pubDate>
     <author>Author</author>
     <guid>https://mexping.github.io/posts/hugo_customize/</guid>
-    <description><![CDATA[Hugoのテーマ「LoveIt」を改変したときのメモ。 Authorを非表示にする LAYOUTS/POSTS/single.html 33〜40をコメントアウト {{/* {{- $author := $params.author | default .Site.Author.name | default (T &#34;author&#34;) -}} {{- $authorLink :=]]></description>
+    <description><![CDATA[HugoのテーマLoveItを改変したときのメモ。 Authorを非表示にする LAYOUTS/POSTS/single.html 33〜40をコメントアウト {{/* {{- $author := $params.author | default .Site.Author.name | default (T &#34;author&#34;) -}} {{- $authorLink := $params.authorlink |]]></description>
 </item></channel>
 </rss>

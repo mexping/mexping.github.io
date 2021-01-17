@@ -3,47 +3,5 @@
         <title>Tags - Tag - Mexping</title>
         <link>https://mexping.github.io/tags/</link>
         <description>Tags - Tag - Mexping</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 07 Jan 2021 23:40:35 &#43;0000</lastBuildDate><atom:link href="https://mexping.github.io/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>Dionaea</title>
-    <link>https://mexping.github.io/tags/dionaea/</link>
-    <pubDate>Thu, 07 Jan 2021 23:40:35 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://mexping.github.io/tags/dionaea/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>ハエトリソウ</title>
-    <link>https://mexping.github.io/tags/%E3%83%8F%E3%82%A8%E3%83%88%E3%83%AA%E3%82%BD%E3%82%A6/</link>
-    <pubDate>Thu, 07 Jan 2021 23:40:35 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://mexping.github.io/tags/%E3%83%8F%E3%82%A8%E3%83%88%E3%83%AA%E3%82%BD%E3%82%A6/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Cattleya</title>
-    <link>https://mexping.github.io/tags/cattleya/</link>
-    <pubDate>Thu, 07 Jan 2021 22:50:31 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://mexping.github.io/tags/cattleya/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>カトレア</title>
-    <link>https://mexping.github.io/tags/%E3%82%AB%E3%83%88%E3%83%AC%E3%82%A2/</link>
-    <pubDate>Thu, 07 Jan 2021 22:50:31 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://mexping.github.io/tags/%E3%82%AB%E3%83%88%E3%83%AC%E3%82%A2/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Pinguicula</title>
-    <link>https://mexping.github.io/tags/pinguicula/</link>
-    <pubDate>Sun, 14 Jul 2013 08:51:31 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://mexping.github.io/tags/pinguicula/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>コウシンソウ</title>
-    <link>https://mexping.github.io/tags/%E3%82%B3%E3%82%A6%E3%82%B7%E3%83%B3%E3%82%BD%E3%82%A6/</link>
-    <pubDate>Sun, 14 Jul 2013 08:51:31 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://mexping.github.io/tags/%E3%82%B3%E3%82%A6%E3%82%B7%E3%83%B3%E3%82%BD%E3%82%A6/</guid>
-    <description><![CDATA[]]></description>
-</item></channel>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://mexping.github.io/tags/" rel="self" type="application/rss+xml" /></channel>
 </rss>
