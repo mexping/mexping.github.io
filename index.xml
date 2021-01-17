@@ -35,10 +35,10 @@
     <description><![CDATA[HugoのテーマLoveItを改変したときのメモ。 Authorを非表示にする LAYOUTS/POSTS/single.html 33〜40をコメントアウト {{/* {{- $author := $params.author | default .Site.Author.name | default (T &#34;author&#34;) -}} {{- $authorLink := $params.authorlink |]]></description>
 </item><item>
     <title>コウシンソウ自生地（2013）</title>
-    <link>https://mexping.github.io/posts/pinguicula-_ramosa/</link>
+    <link>https://mexping.github.io/posts/pinguicula_ramosa/</link>
     <pubDate>Sun, 14 Jul 2013 08:51:31 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>https://mexping.github.io/posts/pinguicula-_ramosa/</guid>
+    <guid>https://mexping.github.io/posts/pinguicula_ramosa/</guid>
     <description><![CDATA[コウシンソウの開花時期は6月下旬。既に花は終わっているはずですが、結実した様子を見たくて日光に行ってきました。 東武日光駅前から" 東武日光駅前]]></description>
 </item></channel>
 </rss>
